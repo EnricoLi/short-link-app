@@ -54,7 +54,7 @@ export const shortUrl = async (req, res) => {
 
 export const accessUrl = async (req, res) => {
 
-    const shortUrl = `${HOST}` + req.params.url
+    const shortUrl = `${HOST}/` + req.params.url
 
     const urlOrigin = await url_DB.findOne({short_url: shortUrl})
 
