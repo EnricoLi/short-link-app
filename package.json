@@ -1,0 +1,16 @@
+{
+  "name": "short-link-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd ../client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.14.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
