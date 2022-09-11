@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./shortInput.css"
 
-const HOST = process.env.HOST;
+const HOST = process.env.HOST || "https://shlz.herokuapp.com";
 
 export const ShortInput = (props) => {
     const [input, setInput] = useState(props?.value ?? '');
