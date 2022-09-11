@@ -19,7 +19,7 @@ const geraString = (tamanho) => {
 let endUrl = ""
 
 async function validUrl(num) {
-    endUrl = `${HOST}` + geraString(num);
+    endUrl = `${HOST}/` + geraString(num);
     const existsUrl = await url_DB.findOne({short_url: endUrl})
 
     if(existsUrl) {
