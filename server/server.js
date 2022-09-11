@@ -8,7 +8,7 @@ const app = express();
 
 const PORT = process.env.PORT || 4000;
 
-const DB = process.env.DB || "mongodb+srv://souji:jzQj6WL4K6KDZAGT@cluster0.uj5nxtn.mongodb.net/?retryWrites=true&w=majority";
+const DB = process.env.DB;
 
 app.use(cors({
   origin: '*',
