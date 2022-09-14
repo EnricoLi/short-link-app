@@ -113,7 +113,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🧑‍💻 Autor
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/87574717?v=4" width="100px;" alt=""/>
- <br />
  <sub><b>Enrico Lima</b></sub>
  <br />
 
